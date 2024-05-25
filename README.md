@@ -1,37 +1,40 @@
 # stamp-valuation-probability-model
 How to use statistics just provide confidence in an estimate of a large lot value.
 
-Overview
+## Overview
 This repository contains a Python script to estimate the value of a stamp collection using statistical analysis and a logistic distribution. The script performs the following tasks:
 
-Calculates descriptive statistics for a sample of pages from the stamp collection.
-Determines the confidence level for the sample.
-Uses a logistic function to model the distribution of stamp values.
-Estimates the total number of stamps and the total value of the collection based on the sample data and the logistic distribution.
-Requirements
+- Calculates descriptive statistics for a sample of pages from the stamp collection.
+- Determines the confidence level for the sample.
+- Uses a logistic function to model the distribution of stamp values.
+- Estimates the total number of stamps and the total value of the collection based on the sample data and the logistic distribution.
+
+## Requirements
 Python 3.x
 NumPy
 SciPy
 Matplotlib
-Installation
+
+## Installation
 Clone the repository:
 bash
 Copy code
 git clone https://github.com/your-username/stamp-price-probability-model.git
 cd stamp-price-probability-model
-Install the required Python packages:
-bash
+
+## Install the required Python packages:
+bash```
 Copy code
 pip install numpy scipy matplotlib
-Usage
+
+## Usage
 Run the script to perform the analysis and estimate the value of the stamp collection:
 
-bash
-Copy code
+bash```
 python3 stamp_price_model.py
-Python Script: stamp_price_model.py
-python
-Copy code
+
+## Python Script: stamp_price_model.py
+python```
 import numpy as np
 from scipy.stats import norm
 import matplotlib.pyplot as plt
