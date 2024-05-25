@@ -10,31 +10,32 @@ This repository contains a Python script to estimate the value of a stamp collec
 - Estimates the total number of stamps and the total value of the collection based on the sample data and the logistic distribution.
 
 ## Requirements
-Python 3.x
-NumPy
-SciPy
-Matplotlib
+- Python 3.x
+- NumPy
+- SciPy
+- Matplotlib
 
 ## Installation
 Clone the repository:
-bash
-Copy code
+```bash
 git clone https://github.com/your-username/stamp-price-probability-model.git
 cd stamp-price-probability-model
+```
 
 ## Install the required Python packages:
-bash```
-Copy code
+```bash
 pip install numpy scipy matplotlib
+```
 
 ## Usage
 Run the script to perform the analysis and estimate the value of the stamp collection:
 
-bash```
+```bash
 python3 stamp_price_model.py
+```
 
 ## Python Script: stamp_price_model.py
-python```
+```python
 import numpy as np
 from scipy.stats import norm
 import matplotlib.pyplot as plt
@@ -101,3 +102,4 @@ print(f"Mean number of stamps per sampled page: {mean_sample}")
 print(f"Estimated total number of stamps: {estimated_total_stamps}")
 print(f"Expected value per stamp: {expected_value_per_stamp}")
 print(f"Estimated total value of the collection: {estimated_total_value}")
+```
